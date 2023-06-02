@@ -11,3 +11,110 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.recipe-box {
+  border: 1px solid rgba(90, 86, 119);
+  border-radius: 15px;
+  padding: 5px 10px;
+  background-color: white;
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+.recipe-box:hover {
+  background-color: #9FA6B2;
+  color: rgb(255, 255, 255);
+}
+
+section {
+  margin-top: 10px;
+}
+
+.recipe-detail-box {
+  border: 1px solid rgba(90, 86, 119);
+  border-radius: 15px;
+  background-color: white;
+
+}
+
+.recipe-name-and-author {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+}
+
+.image-url-detail {
+  padding: 10px;
+  width: 65%;
+}
+
+.image-url-box {
+  padding: 10px;
+  width: 100%;
+}
+
+.text-link {
+  text-decoration: none;
+  color: black;
+}
+
+.form-box {
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 30px 25%;
+  margin-top: 20px;
+  background-color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.brand {
+  margin-left: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.brand:hover {
+  color:white;
+}
+
+.nav-link {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  color:white;
+}
+
+.nav-link:hover {
+  background-color: RGB(0, 123, 255);
+  color: white;
+}
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: rgb(182, 182, 182);
+
+}
+
+.btn-width {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.text-box {
+  padding: 20px;
+  text-align: left;
+}
+
+
+
+
